@@ -14,7 +14,7 @@ namespace Exercicios
                 SOMA = SOMA + K;
             }
             Console.WriteLine("O valor da variável SOMA ao final do processamento é: " + SOMA);
-            Console.ReadKey();
+           
         }
     }
 }

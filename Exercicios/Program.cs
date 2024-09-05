@@ -15,18 +15,21 @@ class Program
             Console.WriteLine("4 - Exercicio 4: Faturamento diário de uma distribuidora XML");
             Console.WriteLine("5 - Exercicio 5: Faturamento mensal de uma distribuidora, detalhado por estado");
             Console.WriteLine("6 - Exercicio 6: Inverta os caracteres de uma palavra.");
+            Console.WriteLine("7 - Exercicio 7: Programa que verifique, em uma string, a existência da letra ‘a’, seja maiúscula ou minúscula.");
+            Console.WriteLine("8 - Exercicio 8: Valor da variável SOMA.");
+
             Console.WriteLine("0 - Sair");
 
             int numero = 0;
 
             while (true)
             {
-                Console.Write("Digite o número da opção desejada (0 a 6): ");
+                Console.Write("Digite o número da opção desejada (0 a 8): ");
                 string entrada = Console.ReadLine();
 
                 if (int.TryParse(entrada, out numero))
                 {
-                    if (numero >= 0 && numero <= 6)
+                    if (numero >= 0 && numero <= 8)
                     {
                         break;
                     }
@@ -66,6 +69,14 @@ class Program
                 case 6:
                     Ex5 exec5 = new Ex5();
                     exec5.Executar();
+                    break;
+                case 7:
+                    Ex6 exec6 = new Ex6();
+                    exec6.Executar();
+                    break;
+                case 8:
+                    Ex7 exec7 = new Ex7();
+                    exec7.Executar();
                     break;
                 case 0:     
                     Console.WriteLine("Saindo...");
