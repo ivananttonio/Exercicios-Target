@@ -15,3 +15,4 @@ C:\Users\ivan_\OneDrive\Área de Trabalho\Processo seletivos\Target\Exercicios\E
 C:\Users\ivan_\OneDrive\Área de Trabalho\Processo seletivos\Target\Exercicios\Exercicios\Exercicios\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\ivan_\OneDrive\Área de Trabalho\Processo seletivos\Target\Exercicios\Exercicios\Exercicios\obj\Debug\net8.0\Exercicios.csproj.AssemblyReference.cache
 C:\Users\ivan_\OneDrive\Área de Trabalho\Processo seletivos\Target\Exercicios\Exercicios\Exercicios\obj\Debug\net8.0\Exercicios.csproj.Up2Date
+C:\Users\ivan_\OneDrive\Área de Trabalho\Processo seletivos\Target\Exercicios\Exercicios\Exercicios\obj\Debug\net8.0\Exercicios.sourcelink.json
