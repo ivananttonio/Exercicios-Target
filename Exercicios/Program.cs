@@ -17,6 +17,9 @@ class Program
             Console.WriteLine("6 - Exercicio 6: Inverta os caracteres de uma palavra.");
             Console.WriteLine("7 - Exercicio 7: Programa que verifique, em uma string, a existência da letra ‘a’, seja maiúscula ou minúscula.");
             Console.WriteLine("8 - Exercicio 8: Valor da variável SOMA.");
+            Console.WriteLine("9 - Exercicio 9: Vetor que guarda o valor de faturamento diário de uma distribuidora.");
+            Console.WriteLine("10 - Exercicio 10: De Barretos em direção a Ribeirão Preto. Calculo de custo Velocidade e Pedágios.");
+
 
             Console.WriteLine("0 - Sair");
 
@@ -24,12 +27,12 @@ class Program
 
             while (true)
             {
-                Console.Write("Digite o número da opção desejada (0 a 8): ");
+                Console.Write("Digite o número da opção desejada (0 a 10): ");
                 string entrada = Console.ReadLine();
 
                 if (int.TryParse(entrada, out numero))
                 {
-                    if (numero >= 0 && numero <= 8)
+                    if (numero >= 0 && numero <= 10)
                     {
                         break;
                     }
@@ -77,6 +80,14 @@ class Program
                 case 8:
                     Ex7 exec7 = new Ex7();
                     exec7.Executar();
+                    break;
+                case 9:
+                    Ex8 exec8 = new Ex8();
+                    exec8.Executar();
+                    break;
+                case 10:
+                    Ex9 exec9 = new Ex9();
+                    exec9.Executar();
                     break;
                 case 0:     
                     Console.WriteLine("Saindo...");

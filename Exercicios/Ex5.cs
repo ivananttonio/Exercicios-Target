@@ -24,7 +24,9 @@ namespace Exercicios
             }
 
             Console.WriteLine($"Palavra invertida: {resultadoInvertido}");
-            
+            Console.WriteLine("Precisone qualquer tecla para continuar");
+            Console.ReadKey();
+
         }
     }
 }

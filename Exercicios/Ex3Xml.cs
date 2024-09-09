@@ -12,7 +12,7 @@ namespace Exercicios
         public void Executar()
         {  
 
-            string xmlString = System.IO.File.ReadAllText("C:\\Users\\ivan_\\OneDrive\\Área de Trabalho\\Processo seletivos\\Target\\Exercicios\\dados.json");
+            string xmlString = System.IO.File.ReadAllText("C:\\Users\\ivan_\\OneDrive\\Área de Trabalho\\Processo seletivos\\Target\\Exercicios\\dados (2).xml");
             xmlString = $"<rows>{xmlString}</rows>";
 
 
@@ -70,6 +70,9 @@ namespace Exercicios
             Console.WriteLine($"Menor valor: R${menorValor:F2}");
             Console.WriteLine($"Maior valor: R${maiorValor:F2}");
             Console.WriteLine($"Dias acima da media: {diasAcimaMedia}");
+            Console.WriteLine("Precisone qualquer tecla para continuar");
+            Console.ReadKey();
+
 
 
         }

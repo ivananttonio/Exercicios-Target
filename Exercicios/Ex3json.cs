@@ -52,6 +52,8 @@ namespace Exercicios
             Console.WriteLine($"Menor faturamento: {menorFaturamento}");
             Console.WriteLine($"Maior faturamento: {maiorFaturamento}");
             Console.WriteLine($"Numero de dias com faturamento acima da média: {diasAcimaDaMedia}");
+            Console.WriteLine("Precisone qualquer tecla para continuar");
+            Console.ReadKey();
         }
 
     }

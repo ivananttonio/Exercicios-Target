@@ -41,11 +41,16 @@ namespace Exercicios
             if (pertence)
             {
                 Console.WriteLine($"{numero} pertence a sequencia de Fibonacci.");
+                Console.WriteLine("Precisone qualquer tecla para continuar");
+                Console.ReadKey();
             }
             else
             {
                 Console.WriteLine($"{numero} não pertence a sequencia de Fibonacci.");
+                Console.WriteLine("Precisone qualquer tecla para continuar");
+                Console.ReadKey();
             }
+            
         }
     }
 }

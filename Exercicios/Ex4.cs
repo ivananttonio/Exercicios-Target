@@ -28,11 +28,16 @@ namespace Exercicios
             Console.WriteLine($"MG: {CalcularPercentual(faturamentoMG, faturamentoTotal):F2}%");
             Console.WriteLine($"ES: {CalcularPercentual(faturamentoES, faturamentoTotal):F2}%");
             Console.WriteLine($"Outros: {CalcularPercentual(faturamentoOutros, faturamentoTotal):F2}%");
+            Console.WriteLine("Precisone qualquer tecla para continuar");
+            Console.ReadKey();
+            
         }
 
         static double CalcularPercentual(double valorEstado, double valorTotal)
         {
             return (valorEstado / valorTotal) * 100;
+
+
         }
     }
     }

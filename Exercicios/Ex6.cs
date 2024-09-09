@@ -29,11 +29,16 @@ namespace Exercicios
             if (count > 0)
             {
                 Console.WriteLine($"A letra 'a' (maiúscula ou minúscula) aparece {count} vez(es) na string.");
+                Console.WriteLine("Precisone qualquer tecla para continuar");
+                Console.ReadKey();
             }
             else
             {
                 Console.WriteLine("A letra 'a' (maiúscula ou minúscula) não foi encontrada na string.");
+                Console.WriteLine("Precisone qualquer tecla para continuar");
+                Console.ReadKey();
             }
+           
         }
     }
 }

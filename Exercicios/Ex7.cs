@@ -21,6 +21,8 @@ namespace Exercicios
             }
 
             Console.WriteLine(SOMA);
+            Console.WriteLine("Precisone qualquer tecla para continuar");
+            Console.ReadKey();
 
         }
     }
